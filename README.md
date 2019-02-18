@@ -4,4 +4,5 @@ Leetcode solutions in C or Python.
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C](./algorithms/twoSum/twoSum.cpp)
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[C](./algorithms/twoSum/twoSum.cpp)|easy|
+2|[AddTwoNumbers](https://leetcode.com/problems/add-two-numbers/)|[C](./algorithms/AddTwoNumbers/AddTwoNumbers.cpp)|medial|
