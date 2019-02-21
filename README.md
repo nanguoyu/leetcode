@@ -10,5 +10,6 @@ Leetcode solutions in C or Python.
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C](./algorithms/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.cpp)|Hard|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C](./algorithms/longestPalindromicSubstring/longestPalindromicSubstring.cpp)|Medium|
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[C](./algorithms/zigZagConversion/zigZagConversion.cpp)|Easy|
+|7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C](./algorithms/ReverseInteger/ReverseInteger.cpp)|Easy|
 
 
