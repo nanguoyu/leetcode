@@ -12,7 +12,7 @@ Leetcode solutions in C or Python.
 |6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[C](./algorithms/zigZagConversion/zigZagConversion.cpp)|Easy|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C](./algorithms/ReverseInteger/ReverseInteger.cpp)|Easy|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C](./algorithms/StringtoIntegeratoi/StringtoIntegeratoi.cpp)|Medium|
-|9|[is Palindrome](https://leetcode.com/problems/palindrome-number/)|[C](./algorithms/isPalindrome/isPalindrome.cpp)|Easy|
+|9|[is Palindrome](https://leetcode.com/problems/palindrome-number/)|[C](./algorithms/PalindromeNumber/PalindromeNumber.cpp)|Easy|
 
 
 
