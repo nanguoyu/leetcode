@@ -16,6 +16,7 @@ Leetcode solutions in C or Python.
 |11|[container with most water](https://leetcode.com/problems/container-with-most-water/)|[C](./algorithms/ContainerWithMostWater/ContainerWithMostWater.cpp)|Medium|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C](./algorithms/IntegertoRoman/IntegertoRoman.cpp)|Medium|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C](./algorithms/romanToInteger/romanToInteger.cpp)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C](./algorithms/longestCommonPrefix/longestCommonPrefix.cpp)|Easy|
 
 
 

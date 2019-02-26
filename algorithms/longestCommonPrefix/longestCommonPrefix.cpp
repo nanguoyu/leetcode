@@ -1,13 +1,13 @@
+// Source : https://oj.leetcode.com/problems/longest-common-prefix/
+// Author : nanguoyu
+// Date   : 2019-02-26
 
-#include <iostream>
-#include <cmath>
-#include <ctime>
-#include <cstdlib>
-#include <iomanip>
-#include<string>
-#include<windows.h>
-
-using namespace std;
+/**********************************************************************************
+*
+* Write a function to find the longest common prefix string amongst an array of strings.
+*
+*
+**********************************************************************************/
 
 char* longestCommonPrefix(char** strs, int strsSize) {
 
@@ -37,12 +37,4 @@ char* longestCommonPrefix(char** strs, int strsSize) {
     }
     result[j]=0;
     return result;
-}
-
-
-int main()
-{
-    char* strs[]={"c","c"};
-    cout<<longestCommonPrefix(strs,2);
-    return 0;
 }
