@@ -17,6 +17,7 @@ Leetcode solutions in C or Python.
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C](./algorithms/IntegertoRoman/IntegertoRoman.cpp)|Medium|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C](./algorithms/romanToInteger/romanToInteger.cpp)|Easy|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C](./algorithms/longestCommonPrefix/longestCommonPrefix.cpp)|Easy|
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[C](./algorithms/3Sum/3Sum.cpp)|Medium|
 
 
 
