@@ -1,18 +1,20 @@
+// Source : https://oj.leetcode.com/problems/3sum-closest/
+// Author : Hao Chen
+// Date   : 2014-07-03
 
-#include <iostream>
-#include <cmath>
-#include <ctime>
-#include <cstdlib>
-#include <iomanip>
-#include<string>
-#include<windows.h>
-
-using namespace std;
-
-/**
- * Return an array of arrays of size *returnSize.
- * Note: The returned array must be malloced, assume caller calls free().
- */
+/**********************************************************************************
+*
+* Given an array S of n integers, find three integers in S such that the sum is
+* closest to a given number, target. Return the sum of the three integers.
+* You may assume that each input would have exactly one solution.
+*
+*     For example, given array S = {-1 2 1 -4}, and target = 1.
+*
+*     The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+*
+*
+**********************************************************************************/
+#include<stdlib.h>
 
 int comp(const void *a, const void *b)
 {
@@ -59,12 +61,4 @@ int threeSumClosest(int *nums, int numsSize, int target)
         }
     }
     return ClostNumber;
-}
-
-int main()
-{
-    int a[4] = {1, 1, 1, 0};
-    int b = -100;
-    cout<<threeSumClosest(a,4,-100)<<endl;
-    return 0;
 }
