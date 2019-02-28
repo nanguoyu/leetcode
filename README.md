@@ -19,6 +19,7 @@ Leetcode solutions in C or Python.
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C](./algorithms/longestCommonPrefix/longestCommonPrefix.cpp)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[C](./algorithms/3Sum/3Sum.cpp)|Medium|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C](./algorithms/3SumClosest/3SumClosest.cpp)|Medium|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[C](./algorithms/letterCombinationsOfAPhoneNumber/letterCombinationsOfAPhoneNumber.cpp)|Medium|
 
 
 
