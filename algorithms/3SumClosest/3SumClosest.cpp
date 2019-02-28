@@ -1,6 +1,6 @@
 // Source : https://oj.leetcode.com/problems/3sum-closest/
-// Author : Hao Chen
-// Date   : 2014-07-03
+// Author : nanguoyu
+// Date   : 2019-02-28
 
 /**********************************************************************************
 *
