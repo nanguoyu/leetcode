@@ -25,5 +25,6 @@ Leetcode solutions in C or Python.
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C](./algorithms/validParentheses/validParentheses.cpp)|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C](./algorithms/MergeTwoSortedLists/MergeTwoSortedLists.cpp)|Easy|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[C](./algorithms/GenerateParenthese/GenerateParenthese.cpp)|Medium|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C](./algorithms/MergekSortedLists/MergekSortedLists.cpp)|Hard|
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
