@@ -2,17 +2,20 @@
 // Author : nanguoyu
 // Date   : 2019/3/4
 
-//Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
-//
-//For example, given n = 3, a solution set is:
-//
-//[
-//"((()))",
-//"(()())",
-//"(())()",
-//"()(())",
-//"()()()"
-//]
+/*****************************************************
+Given n pairs of parentheses, write a function to
+ generate all combinations of well-formed parentheses.
+
+For example, given n = 3, a solution set is:
+
+[
+"((()))",
+"(()())",
+"(())()",
+"()(())",
+"()()()"
+]
+ *******************************************************/
 
 /**
  * Return an array of size *returnSize.
