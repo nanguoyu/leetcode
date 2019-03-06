@@ -30,5 +30,6 @@ Leetcode solutions in C or Python.
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C](./algorithms/reverseKGroup/reverseKGroup.cpp)|Hard|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C](./algorithms/removeDuplicates/removeDuplicates.cpp)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C](./algorithms/removeElement/removeElement.cpp)|Easy|
-|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/remove-element/)|[C](./algorithms/ImplementstrStr/ImplementstrStr.cpp)|Easy|
+|997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
