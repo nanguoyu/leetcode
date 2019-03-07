@@ -31,5 +31,6 @@ Leetcode solutions in C or Python.
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C](./algorithms/removeDuplicates/removeDuplicates.cpp)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C](./algorithms/removeElement/removeElement.cpp)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/remove-element/)|[C](./algorithms/ImplementstrStr/ImplementstrStr.cpp)|Easy|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C](./algorithms/DivideTwoIntegers/DivideTwoIntegers.cpp)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
