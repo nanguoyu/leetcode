@@ -32,5 +32,6 @@ Leetcode solutions in C or Python.
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C](./algorithms/removeElement/removeElement.cpp)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/remove-element/)|[C](./algorithms/ImplementstrStr/ImplementstrStr.cpp)|Easy|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C](./algorithms/DivideTwoIntegers/DivideTwoIntegers.cpp)|Medium|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[C](./algorithms/SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.cpp)|Hard|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
