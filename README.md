@@ -35,5 +35,6 @@ Leetcode solutions in C or Python.
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[C](./algorithms/SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.cpp)|Hard|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[C](./algorithms/NextPermutation/NextPermutation.cpp)|Medium|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[C](./algorithms/longestValidParentheses/longestValidParentheses.cpp)|Hard|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C](./algorithms/SearchinRotatedSortedArray/SearchinRotatedSortedArray.cpp)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
