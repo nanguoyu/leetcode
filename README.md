@@ -38,5 +38,6 @@ Leetcode solutions in C or Python.
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C](./algorithms/SearchinRotatedSortedArray/SearchinRotatedSortedArray.cpp)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C](./algorithms/FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.cpp)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C](./algorithms/SearchInsertPosition/SearchInsertPosition.cpp)|Easy|
+|36|[valid sudoku](https://leetcode.com/problems/valid-sudoku/)|[C](./algorithms/validsudoku/validsudoku.cpp)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
