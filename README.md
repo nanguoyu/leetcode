@@ -37,5 +37,6 @@ Leetcode solutions in C or Python.
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[C](./algorithms/longestValidParentheses/longestValidParentheses.cpp)|Hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C](./algorithms/SearchinRotatedSortedArray/SearchinRotatedSortedArray.cpp)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C](./algorithms/FindFirstandLastPositionofElementinSortedArray/FindFirstandLastPositionofElementinSortedArray.cpp)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C](./algorithms/SearchInsertPosition/SearchInsertPositiony.cpp)|Easy|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
