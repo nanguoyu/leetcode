@@ -25,32 +25,24 @@ You may assume that the given Sudoku puzzle will have a single unique solution.
 The given board size is always 9x9.
  *********************************************************************************************/
 
-
 bool fun(char **board, int row,int col,int (*row_group)[9], int (*col_group)[9], int (*grid_group)[9])
 {
     bool is = false;
     if (board[row][col] == '.') {
-        for (int k = 0; k < 9; ++k) {
-            if (!row_group[row][k] && !col_group[col][k] && !grid_group[3 * (row / 3) + col / 3][k]) {
+        for (int k = 0; k < 9; ++k){
+            if (!row_group[row][k] && !col_group[col][k] && !grid_group[3 * (row / 3) + col / 3][k])
+            {
 
                 row_group[row][k]=1;
                 col_group[col][k]=1;
                 grid_group[3 * (row / 3) + col / 3][k]=1;
-                char *pre = (char *) malloc(sizeof(char) * 10); pre[0] = 0;
-                char *kk = (char *) malloc(sizeof(char) * 2); kk[0]=k+49;kk[1]=0;
 
-//                printf("k=%d kk = %s\n",k, kk);
-                strncpy(pre, board[row], col);
-                pre[col]=0;
-                strcat(pre, kk);
-                strcat(pre, &board[row][col+1]);
-//                printf("%s\n",pre);
-                board[row] = pre;
+                board[row][col]=k+49;
 
                 int i= row,j=col;
                 if(row<9) {col++;}
+                if(col==9 && row==8) {return true;}
                 if(col==9 && row<9) {col=0;row++;}
-                if(col==9 && row==9) {return true;}
                 is = fun(board,row,col,row_group,col_group,grid_group);
 
                 if(is){
@@ -60,14 +52,7 @@ bool fun(char **board, int row,int col,int (*row_group)[9], int (*col_group)[9],
                     row_group[row][k]=0;
                     col_group[col][k]=0;
                     grid_group[3 * (row / 3) + col / 3][k]=0;
-                    char *pre = (char *) malloc(sizeof(char) * 10); pre[0] = 0;
-                    char *kk = (char *) malloc(sizeof(char) * 2); kk[0]='.';kk[1]=0;
-                    strncpy(pre, board[row], col);
-                    pre[col]=0;
-                    strcat(pre, kk);
-                    strcat(pre, &board[row][col+1]);
-                    board[row] = pre;
-
+                    board[row][col]='.';
                 }
             }
         }
@@ -77,7 +62,7 @@ bool fun(char **board, int row,int col,int (*row_group)[9], int (*col_group)[9],
         if(col==9 && row==8) {return true;}
         if(col==9 && row<9) {col=0;row++;}
         is = fun(board,row,col,row_group,col_group,grid_group);
-        if(is){return true;}
+        if(is){return true;}else{ return false;}
     }
     return false;
 
@@ -91,31 +76,47 @@ void solveSudoku(char **board, int boardRowSize, int *boardColSizes)
     int row[9][9] = {0}; int (*rp) [9]=row;
     int grid[9][9] = {0}; int (*gp) [9] =grid;
     for (int i = 0; i < boardRowSize; ++i) {
-        for (int j = 0; j < *boardColSizes; ++j) {
+        for (int j = 0; j < 9; ++j) {
+//            printf(" %c ",board[i][j]);
             if (board[i][j] == '.') continue;
             int n = board[i][j] - 49;
             col[i][n] = 1;
             row[j][n] = 1;
             grid[3 * (i / 3) + j / 3][n] = 1;
         }
+//        printf("\n");
     }
+//    printf("\n");
 
     fun(board,0,0,cp,rp,gp);
 
 }
 
-
 int main()
 {
-    char *board[9] = {"53..7....",
-                      "6..195...",
-                      ".98....6.",
-                      "8...6...3",
-                      "4..8.3..1",
-                      "7...2...6",
-                      ".6....28.",
-                      "...419..5",
-                      "....8..79"};
+    char **board =(char **)malloc(sizeof(char *)*9);
+    char b[9][9]={{'5','3','.','.','7','.','.','.','.'},
+                  {'6','.','.','1','9','5','.','.','.'},
+                  {'.','9','8','.','.','.','.','6','.'},
+                  {'8','.','.','.','6','.','.','.','3'},
+                  {'4','.','.','8','.','3','.','.','1'},
+                  {'7','.','.','.','2','.','.','.','6'},
+                  {'.','6','.','.','.','.','2','8','.'},
+                  {'.','.','.','4','1','9','.','.','5'},
+                  {'.','.','.','.','8','.','.','7','9'}};
+
+    char c[9][9]={{'.','.','9','7','4','8','.','.','.'},
+                  {'7','.','.','.','.','.','.','.','.'},
+                  {'.','2','.','1','.','9','.','.','.'},
+                  {'.','.','7','.','.','.','2','4','.'},
+                  {'.','6','4','.','1','.','5','9','.'},
+                  {'.','9','8','.','.','.','3','.','.'},
+                  {'.','.','.','8','.','3','.','2','.'},
+                  {'.','.','.','.','.','.','.','.','6'},
+                  {'.','.','.','2','7','5','9','.','.'}};
+    for (int k = 0; k < 9; ++k) {
+        board[k]=c[k];
+    }
 
 
     int boardRowSize=9; int *boardColSizes=&boardRowSize;
@@ -128,6 +129,8 @@ int main()
         }
         printf("\n");
     }
+    printf("\n");
+
 
     return 0;
 }
