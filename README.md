@@ -41,5 +41,6 @@ Leetcode solutions in C or Python.
 |36|[valid sudoku](https://leetcode.com/problems/valid-sudoku/)|[C](./algorithms/ValidSudoku/ValidSudoku.cpp)|Medium|
 |37|[Sudoku Solver](https://leetcode.com/problems/Sudoku-Solver/)|[C](./algorithms/SudokuSolver/SudokuSolver.cpp)|Hard|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C](./algorithms/CountandSay/CountandSay.cpp)|Easy|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C](./algorithms/CombinationSum/CombinationSum.cpp)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
