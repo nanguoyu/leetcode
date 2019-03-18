@@ -43,6 +43,6 @@ Leetcode solutions in C or Python.
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C](./algorithms/CountandSay/CountandSay.cpp)|Easy|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C](./algorithms/CombinationSum/CombinationSum.cpp)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C](./algorithms/CombinationSumII/CombinationSumII.cpp)|Medium|
-|40|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C](./algorithms/FirstMissingPositive/FirstMissingPositive.cpp)|Hard|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C](./algorithms/FirstMissingPositive/FirstMissingPositive.cpp)|Hard|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
