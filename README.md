@@ -46,5 +46,6 @@ Leetcode solutions in C or Python.
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C](./algorithms/FirstMissingPositive/FirstMissingPositive.cpp)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[C](./algorithms/TrappingRainWater/TrappingRainWater.cpp)|Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C](./algorithms/MultiplyStrings/MultiplyStrings.cpp)|Medium|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C](./algorithms/JumpGameII/JumpGameII.cpp)|Hard|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
