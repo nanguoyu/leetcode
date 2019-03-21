@@ -47,5 +47,6 @@ Leetcode solutions in C or Python.
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[C](./algorithms/TrappingRainWater/TrappingRainWater.cpp)|Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C](./algorithms/MultiplyStrings/MultiplyStrings.cpp)|Medium|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C](./algorithms/JumpGameII/JumpGameII.cpp)|Hard|
+|46|[permutations](https://leetcode.com/problems/permutations/)|[C](./algorithms/permutations/permutations.cpp)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
