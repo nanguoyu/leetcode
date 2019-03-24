@@ -49,5 +49,6 @@ Leetcode solutions in C or Python.
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C](./algorithms/JumpGameII/JumpGameII.cpp)|Hard|
 |46|[permutations](https://leetcode.com/problems/permutations/)|[C](./algorithms/permutations/permutations.cpp)|Medium|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[C](./algorithms/permutationsII/permutationsII.cpp)|Medium|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[C](./algorithms/RotateImage/RotateImage.cpp)|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
