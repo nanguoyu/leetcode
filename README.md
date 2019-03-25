@@ -50,5 +50,6 @@ Leetcode solutions in C or Python.
 |46|[permutations](https://leetcode.com/problems/permutations/)|[C](./algorithms/permutations/permutations.cpp)|Medium|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[C](./algorithms/permutationsII/permutationsII.cpp)|Medium|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[C](./algorithms/RotateImage/RotateImage.cpp)|Medium|
+|49|[Group Anagrams]|(https://leetcode.com/problems/group-anagrams/)|[C](./algorithms/GroupAnagrams/GroupAnagrams.cpp) Passed 98/101 :(|Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
