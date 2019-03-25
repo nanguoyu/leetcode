@@ -62,6 +62,7 @@ char*** groupAnagrams(char** strs, int strsSize, int** columnSizes, int* returnS
         int k=0,l=1,rl=1,rrl=1,rrrl=1;
         while(strs[j][k]){
             if(INT_MAX/tringle[strs[j][k]-'a'] < l){
+                printf("%s %c\n",strs[j],strs[j][k]);
                 if(INT_MAX/tringle[strs[j][k]-'a'] < rl){
                     if(INT_MAX/tringle[strs[j][k]-'a'] < rrl){
                         rrrl*=tringle[strs[j][k]-'a'];
