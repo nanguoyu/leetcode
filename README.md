@@ -54,5 +54,6 @@ Leetcode solutions in C or Python.
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C](./algorithms/Pow(x,n)/Pow(x,n).cpp) |Medium|
 |51|[n-queens](https://leetcode.com/problems/n-queens/)|[C](./algorithms/nqueens/nqueens.cpp) |Hard|
 |52|[n-queens-ii](https://leetcode.com/problems/n-queens-ii/)|[C](./algorithms/nqueensii/nqueensii.cpp) |Hard|
+|53|[maximum-subarray](https://leetcode.com/problems/maximum-subarray/)|[C](./algorithms/maximumsubarray/maximumsubarray.cpp) |Easy|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
