@@ -56,5 +56,6 @@ Leetcode solutions in C or Python.
 |52|[n-queens-ii](https://leetcode.com/problems/n-queens-ii/)|[C](./algorithms/nqueensii/nqueensii.cpp) |Hard|
 |53|[maximum-subarray](https://leetcode.com/problems/maximum-subarray/)|[C](./algorithms/maximumsubarray/maximumsubarray.cpp) |Easy|
 |54|[spiral-matrix](https://leetcode.com/problems/spiral-matrix/)|[C](./algorithms/spiral-matrix/spiral-matrix.cpp) |Medium|
+|55|[jump-game](https://leetcode.com/problems/jump-game/)|[C](./algorithms/jump-game/jump-game.cpp) |Medium|
 |997|[Find the Town Judge](https://leetcode.com/problems/implement-strstr/)|[C](./algorithms/FindtheTownJudge/FindtheTownJudge.cpp)|Easy|
 
