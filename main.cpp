@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cmath>
 #include <ctime>
@@ -9,46 +8,85 @@
 
 using namespace std;
 
-int comp(const void *a, const void *b)
+
+int comp_fun(const void*a,const void*b)
 {
-    return *(int *) a - *(int *) b;
+    int *aptr = *(int **)a;
+    int *bptr = *(int **)b;
+    if(aptr[0]!=bptr[0]){
+        return aptr[0]-bptr[0];
+    } else{
+        return aptr[1]-bptr[1];
+    }
 }
 
-struct ListNode {
-    int val;
-    struct ListNode *next;
-};
+/**
+ * Return an array of arrays of size *returnSize.
+ * The sizes of the arrays are returned as *returnColumnSizes array.
+ * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
+ */
+int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* returnSize, int** returnColumnSizes){
 
-void swap(int *a, int *b)
-{
-    int c = *a;
-    *a = *b;
-    *b = c;
-}
+    if (intervalsSize == 0) {
+        if(!returnColumnSizes){
+            returnColumnSizes = (int **)malloc(sizeof(int *));
+        }
+        *returnColumnSizes = NULL; }
 
-int firstMissingPositive(int* nums, int numsSize) {
-    int i = 0;
-    while( i < numsSize) {
-        if(nums[i]>0&& nums[i]<numsSize && nums[i]!=i+1 && nums[nums[i]-1]!=nums[i]){
-            swap(nums+nums[i]-1,nums+i);
-        };
-        if(nums[i]==i+1 || nums[i]<=0 || nums[i]>=numsSize ||nums[nums[i]-1]==nums[i]){++i;}
+
+    qsort(intervals, intervalsSize, sizeof(int) * 2, comp_fun);
+    // printf("[INFO] input:\n");
+    // for (int i = 0; i < intervalsSize; ++i) {
+    //     for (int j = 0; j < intervalsColSize[i]; ++j) {
+    //         printf(" %d ", intervals[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    if (!returnSize) {
+        returnSize = (int *) malloc(sizeof(int));
+    }
+    *returnSize = 0;
+
+    int **res = (int **) malloc(sizeof(int *) * intervalsSize);
+
+
+    for (int k = 0; k < intervalsSize; k++) {
+        int *unit = (int *) malloc(sizeof(int) * 2);
+        unit[0] = intervals[k][0];
+        int max_right = intervals[k][1];
+        while (k+1<intervalsSize && (intervals[k][1] >= intervals[k + 1][0] || max_right >= intervals[k + 1][0])) {
+            if(intervals[k][1]>=max_right){max_right=intervals[k][1];}
+            k++;
+        }
+        if(intervals[k][1]>=max_right){max_right=intervals[k][1];}
+        unit[1]=max_right;
+        res[*returnSize]=unit; (*returnSize)++;
+
     }
 
-
-    int j=0;
-    for (; j < numsSize; ++j) {
-        if (j!=nums[j]-1) break;
+    if(!returnColumnSizes){
+        returnColumnSizes = (int **)malloc(sizeof(int *));
     }
-    return j+1;
+    *returnColumnSizes = (int *)malloc(sizeof(int )*(*returnSize));
+    for (int l = 0; l < *returnSize; ++l) {
+        (*returnColumnSizes)[l]=2;
+    }
+
+    // printf("\n[INFO] output:\n");
+    // for (int i = 0; i < *returnSize; ++i) {
+    //     for (int j = 0; j < (*returnColumnSizes)[i]; ++j) {
+    //         printf(" %d ", res[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+    return res;
 }
+
 
 int main()
 {
-    int numbers[]={1,1}; int numsSize=3;
-    int *nums = numbers;
-    int res = firstMissingPositive(nums,numsSize);
-    printf("%d\n",res);
+
 
     return 0;
 }
